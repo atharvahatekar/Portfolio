@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 import Banner from "components/Banner";
 import Navbar from "components/Navbar";
-import Projects from "components/Projects";
+import Educations from "components/Education";
 import About from "components/About";
 import Skills from "components/Skills";
 import Publication from "components/Publication";
@@ -25,8 +25,8 @@ const Home = ({ currentTheme, themeToggler }) => {
       <Banner />
       <About />
       <Skills />
+      <Educations />
       <Publication />
-      {/* <Projects /> */}
       {/* <Stats /> */}
     </div>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import { NavBarDiv, NavItems, NavItem, Logo } from "styles/Navbar";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
+import logoName from "assets/images/Logo.png";
 
 const menus = [
   { id: 0, name: "Home", css: "home" },
@@ -9,16 +10,15 @@ const menus = [
   { id: 2, name: "Skills", css: "skills" },
   { id: 3, name: "Publication", css: "Publication" },
   { id: 4, name: "Projects", css: "projects" },
+  { id: 4, name: "Educations", css: "education" },
+  
 ];
 
 function Navbar() {
-
   return (
     <NavBarDiv>
       <Logo onClick={() => scroll.scrollToTop()}>
-        <span class="grey-color"> &lt;</span>
-        <span class="logo-name">Atharva Hatekar</span>
-        <span class="grey-color">/&gt;</span>
+        <img src={logoName} alt="Atharva Hatekar" />
       </Logo>
 
       <NavItems>

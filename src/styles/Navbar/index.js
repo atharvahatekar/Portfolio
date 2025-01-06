@@ -7,66 +7,21 @@ const Logo = styled.div`
     &:hover {
         color: ${(props) => props.theme.socialIconColor};
     }
-
-    span:nth-child(1) {
-        font-weight: bold;
-        // font-size: 2rem;
-        font-size: 24px;
-    }
-    span:nth-child(2) {
-        font-family: 'Agustina Regular';
-        font-weight: bold;
-        font-variant-ligatures: no-common-ligatures;
-        -webkit-font-variant-ligatures: no-common-ligatures;
-        padding: 0 10px;
-        // font-size: 1.2rem;
-        font-size: 24px;
-        cursor: pointer;
-        color: ${(props) => props.theme.fontColorPrimary};
-        letter-spacing: 0.2em;
-    }
-    span:nth-child(3) {
-        font-weight: bold;
-        // font-size: 2rem;
-        font-size: 24px;
-    }
     line-height: 1.5em;
 
+    img{
+        width: 200px;
+        height: 6vh;
+    }
+
     @media (max-width: 768px) {
-        span:nth-child(1) {
-            font-size: 24px;
-        }
-        span:nth-child(2) {
-            font-size: 24px;
-        }
-        span:nth-child(3) {
-            font-size: 24px;
-        }
         line-height: 1.5em;
     }
     @media (max-width: 640px) {
-        span:nth-child(1) {
-            font-size: 20px;
-        }
-        span:nth-child(2) {
-            font-size: 20px;
-        }
-        span:nth-child(3) {
-            font-size: 20px;
-        }
         line-height: 1.2em;
     }
 
     @media (max-width: 445px) {
-        span:nth-child(1) {
-            font-size: 16px;
-        }
-        span:nth-child(2) {
-            font-size: 16px;
-        }
-        span:nth-child(3) {
-            font-size: 16px;
-        }
         line-height: 1.1em;
     }
 `;

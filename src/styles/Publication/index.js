@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { BiCheck } from "react-icons/bi";
 
 export const QuoteContainer = styled.div`
-  position: relative;
   color: Black;
   width: 80%;
   margin: auto;
