@@ -18,9 +18,9 @@ export const EducationWrapper = styled.div`
 `;
 export const BoxContainer = styled.div`
   display: flex;
-  flex-direction: column;
   width: 100%;
   gap: 30px;
+  justify-content: center;
 `;
 export const IconWrap = styled.div`
 width: 100%;
@@ -36,9 +36,8 @@ justify-content: center;
 `
 
 export const Box = styled.div`
-  width: 100%;
+  width: 45%;
   border: none;
-  text-align: left;
   padding: 30px 0;
   display: flex;
   background-color: #212129;
@@ -97,7 +96,7 @@ export const AboutDegree = styled.div`
 `;
 
 export const CollegeHeading = styled.div`
-  color: #ffffffb3;
+  color: #ffd479;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;

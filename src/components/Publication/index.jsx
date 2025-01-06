@@ -18,7 +18,6 @@ const Publication = () => {
         <H1>Publication</H1>
         <QuoteContainer>
           <p className="quote">
-            <QuoteMarks>&ldquo;</QuoteMarks>
             <QuoteContent>
               Passenger Security Using Facial Emotion Recognition System
             </QuoteContent>

@@ -5,14 +5,13 @@ import { SiCplusplus } from "react-icons/si";
 import {
   FaHtml5,
   FaPython,
-  FaJs,
   FaNodeJs,
   FaCss3,
   FaLaptopCode,
   FaServer,
   FaHubspot,
 } from "react-icons/fa";
-import { SiRedux, SiMongodb } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import {
   SkillsContainer,
   Col,

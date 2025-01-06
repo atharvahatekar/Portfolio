@@ -83,6 +83,21 @@ padding-top: 20px;
   
 `;
 
+export const ProjectLinks = styled(HeaderButtons)`
+padding-top: 20px;
+  button {
+    width: 120px;
+    padding: 10px 30px;
+
+    &:hover {
+    border: 1px solid rgb(211, 220, 230);
+    background-color:rgb(96, 103, 109);
+    color: #fff;
+    }
+  }
+  
+`;
+
 export const P = styled.p`
   font-size: 26px;
   font-weight: 300;

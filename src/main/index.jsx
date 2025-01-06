@@ -7,6 +7,8 @@ import About from "components/About";
 import Skills from "components/Skills";
 import Publication from "components/Publication";
 import Loader from "components/Loader";
+import Projects from "components/Projects";
+import Experience from "components/Experience";
 
 const Home = ({ currentTheme, themeToggler }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,9 +27,10 @@ const Home = ({ currentTheme, themeToggler }) => {
       <Banner />
       <About />
       <Skills />
+      <Experience />
       <Educations />
+      <Projects />
       <Publication />
-      {/* <Stats /> */}
     </div>
   );
 };

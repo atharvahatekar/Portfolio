@@ -10,8 +10,8 @@ const Logo = styled.div`
     line-height: 1.5em;
 
     img{
-        width: 200px;
         height: 6vh;
+        margin-top: 13px;
     }
 
     @media (max-width: 768px) {
