@@ -1,7 +1,6 @@
 import React from "react";
 import {
   QuoteContainer,
-  QuoteMarks,
   QuoteContent,
   ServiceList,
   ServiceListItem,

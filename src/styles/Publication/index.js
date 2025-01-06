@@ -32,14 +32,6 @@ export const QuoteContent = styled.span`
   font-weight: 600;
 `;
 
-export const QuoteMarks = styled.span`
-  font-family: Arial;
-  font-size: 200px;
-  position: absolute;
-  top: 8px;
-  opacity: 0.2;
-`;
-
 export const ServiceList = styled.ul`
   padding: 18px 0 5px 65px;
   width: 90%;
