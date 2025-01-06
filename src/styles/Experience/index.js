@@ -1,17 +1,14 @@
 import styled from "styled-components";
-import { BiCheck } from "react-icons/bi";
 
 export const QuoteContainer = styled.div`
   color: Black;
   width: 80%;
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #212129;
   border-radius: 5px;
   height: 50vh;
-  padding: 15px;
+  padding: 0 15px;
   transition: background-color 0.3s ease-in-out; 
   p {
     display: flex;
@@ -20,21 +17,23 @@ export const QuoteContainer = styled.div`
 
   @media (max-width: 1920px) {
     height: auto;
-    padding: 25px;
-  }
-
-  &:hover {
-    background-color: unset;
-    box-shadow: #939090 0px 0px 10px;
+    padding: 0 25px;
   }
 `;
 
 export const QuoteContent = styled.span`
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-size: 16px;
   color: #ffd479;
   font-weight: 600;
   font-family: Poppins, sans-serif;
+
+  svg{
+    font-size: 40px;
+    color: #b3b9c5;
+  }
 `;
 
 export const QuoteMarks = styled.span`
@@ -46,34 +45,35 @@ export const QuoteMarks = styled.span`
 `;
 
 export const ServiceList = styled.ul`
-  padding: 4px 0 5px 0;
-  width: 90%;
+  padding: 4px 0 5px 22px;
+  width: 100%;
+  margin-left: 20px;
 
   @media (max-width: 1920px) {
-    padding: 6px 0 5px 0;
+    padding: 6px 0 5px 22px;
+    margin-left: 20px;
   }
+
+  border-left: 3px solid  #b3b9c5;
 `;
 
 export const TimePeriod = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: end;
   color: #b3b9c5;
-  padding-top: 10px;
 `;
 
-export const MainWrapper = styled.ul`
+export const MainWrapper = styled.div`
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 20px;
-  width: 80%;
+  width: 70%;
 `;
 export const DataWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 2em;
-  gap: 15px;
+  gap: 50px;
 `;
 
 export const ServiceListItem = styled.li`
@@ -85,7 +85,6 @@ export const ServiceListItem = styled.li`
   padding-top: 5px;
 
   @media (max-width: 1920px) {
-    margin-bottom: 1rem;
     padding-top: 15px;
   }
 `;

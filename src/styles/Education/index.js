@@ -36,18 +36,15 @@ justify-content: center;
 `
 
 export const Box = styled.div`
-  width: 45%;
-  border: none;
+  width: 46%;
   padding: 30px 0;
   display: flex;
-  background-color: #212129;
-  border: 1px solid #021e541a;
-  box-shadow: #051e4f57 0px 0px 10px;
+  border: 1px solid #939090;
   transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 
   &:hover{
-    background-color: unset;
-     box-shadow: #939090 0px 0px 10px;
+    background-color: #212129;
+    border: none;
   }
 
 `;
@@ -61,16 +58,14 @@ border: none;
 
 export const SecondEduWrapper = styled.div`
  width: 100%;
- background-color: #212129;
- border: 1px solid #021e541a;
+ border: 1px solid #939090;
  padding: 30px 0;
- box-shadow: #051e4f57 0px 0px 10px;
  display: flex;
  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 
  &:hover{
-    background-color: unset;
-     box-shadow: #939090 0px 0px 8px;
+  background-color: #212129;
+  border: none;
   }
 `;
 export const DateWrapper = styled.div`
