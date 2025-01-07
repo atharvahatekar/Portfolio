@@ -24,25 +24,35 @@ const Publication = () => {
               <ServiceListItem>
                 <ServiceListIcon />
                 <ServiceText>
-                  Developed a facial emotion recognition system utilizing DCNN
-                  achieving a 90% accuracy rate.
+                The publication introduces a novel application of deep convolutional neural networks (DCNN) for facial emotion recognition, 
+                aiming to enhance passenger safety in taxis by detecting and responding to fear-related emotions.
                 </ServiceText>
               </ServiceListItem>
               <ServiceListItem>
                 <ServiceListIcon />
                 <ServiceText>
-                  Classify facial expressions into Happy, Sad, Angry, Fear,
-                  Surprise, Disgust, and Neutral.
+                The system identifies human emotions such as happiness, sadness, anger, and fear in real time. 
+                It generates automatic alerts to taxi companies if a passenger exhibits signs of fear for an extended period, 
+                contributing to security and trust in transportation services.
                 </ServiceText>
               </ServiceListItem>
               <ServiceListItem>
                 <ServiceListIcon />
                 <ServiceText>
-                  Emphasized the importance of non-verbal communication and
-                  safety in passenger transportation, resulting in improved
-                  safety incident response times.
+                The research leverages datasets like Cohn-Kanade and employs state-of-the-art algorithms, including HAAR cascade 
+                functions for face detection and local binary pattern techniques for feature extraction, to ensure high accuracy in 
+                emotion detection.
                 </ServiceText>
               </ServiceListItem>
+              <ServiceListItem>
+                <ServiceListIcon />
+                <ServiceText>
+                The work is a collaboration with multiple researchers and utilizes Python, OpenCV, and TensorFlow/Keras to create a 
+                scalable and efficient solution for integrating emotion recognition in smart environments.
+                </ServiceText>
+              </ServiceListItem>
+
+
 
               <ViewPublication>
                 <button>

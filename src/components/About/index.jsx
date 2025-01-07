@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import ProfilePic from "assets/images/profile-pic.jpeg";
 import {
   AboutDiv,
@@ -16,18 +16,18 @@ import { Container, H1 } from "styles/index";
 const socialMediaLinks = [
   {
     id: 0,
-    link: "Linkedin Link paste here",
+    link: "https://www.linkedin.com/in/atharvahatekar/",
     icon: <FaLinkedin />,
   },
   {
     id: 1,
-    link: "github Link paste here",
+    link: "https://github.com/atharvahatekar",
     icon: <FaGithub />,
   },
   {
     id: 2,
-    link: "Twitter Link paste here",
-    icon: <FaTwitter />,
+    link: "https://www.instagram.com/atharvahatekar.ai/profilecard/?igsh=MzQ2OGxpeGFuc3p3",
+    icon: <FaInstagram />,
   },
 ];
 const About = () => {
@@ -41,22 +41,14 @@ const About = () => {
           <H1>About Me</H1>
           <AboutInfo>
             <AboutInfoP>
-              Hello Everyone, I am Atharva Hatekar from Nagpur. I graduated in
-              B.Tech in Electrical and Electronics branch in 2020 from Techno
-              India njr Institute of Currently,Skilled in Python, SQL, Tableau,
-              PowerBI, and advanced data handling, visualization techniques.
-              Demonstrated ability to transform complex datasets into actionable
-              insights that drive business growth and enhance decision-making.
-              Proven track record in deploying predictive models, conversational
-              AI solutions, and creating interactive BI dashboards. My hobbies
-              include cooking and traveling. Interested in Listening to songs
-              and business.
+            I am Atharva Hatekar, currently pursuing a Master’s in Artificial Intelligence at Brandenburgische Technische Universität, 
+            Germany. I hold a Bachelor’s degree in Computer Science and Engineering from Lovely Professional University, India.
+            Professionally, I am working as a Data Science Intern at Metso, Frankfurt, Germany, and have previously worked as a Data Analyst 
+            and Software Developer at Dreamwarez, India.
             </AboutInfoP>
             <AboutInfoP>
-              I am adaptable, proficient in remote collaboration, and committed
-              to achieving organizational goals. With a knack for
-              problem-solving and analytics, I am passionate about solving
-              Algorithmic problems with a good hold on Data Structures.
+            Beyond my professional endeavors, I am a sports enthusiast, proudly holding gold medals in American Football and Rugby 
+            at national championships. I also have a deep passion for music, and I enjoy singing as well as playing the guitar and drums.
             </AboutInfoP>
           </AboutInfo>
           <HeaderUl>

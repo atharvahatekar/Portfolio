@@ -26,13 +26,10 @@ const Educations = () => {
                 <FaUserGraduate />
               </IconWrap>
               <div>
-                <CollegeHeading>Rajindra Mishra College</CollegeHeading>
-                <Degree>Bechlor of Computer Application</Degree>
-                <DateWrapper>August 2017 - February 2021</DateWrapper>
-                <AboutDegree>
-                  - Major: Electronics and Communication Engineering
-                </AboutDegree>
-                <AboutDegree>- Minor: Information Technology</AboutDegree>
+                <CollegeHeading>Brandenburgische Technische Universität</CollegeHeading>
+                <Degree>Masters in Artificial Intelligence</Degree>
+                <DateWrapper>April 2023 - Present</DateWrapper>
+                <AboutDegree>Key Subjects : Data Mining • Image Processing • Information Retrival </AboutDegree>
               </div>
             </Box>
             <BoxWrapper>
@@ -44,12 +41,9 @@ const Educations = () => {
                   <CollegeHeading>
                     Lovely Professional University
                   </CollegeHeading>
-                  <Degree>Master of Computer Application</Degree>
-                  <DateWrapper>May 2021 - August 2023</DateWrapper>
-                  <AboutDegree>
-                    - Major: Electronics and Communication Engineering
-                  </AboutDegree>
-                  <AboutDegree>- Minor: Information Technology</AboutDegree>
+                  <Degree>Bachelors in Computer Science and Engineering</Degree>
+                  <DateWrapper>June 2017 - June 2021</DateWrapper>
+                  <AboutDegree> Key Subjects : Programming • Data Structure and Algorithm • DBMS</AboutDegree>
                 </div>
               </SecondEduWrapper>
             </BoxWrapper>

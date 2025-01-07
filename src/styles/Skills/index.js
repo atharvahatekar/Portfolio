@@ -45,6 +45,6 @@ export const SkillBox = styled.div`
 `;
 
 export const SkillBoxText = styled.p`
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
 `;

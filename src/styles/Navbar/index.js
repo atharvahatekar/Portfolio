@@ -8,8 +8,10 @@ const Logo = styled.div`
     display: flex;
     flex-direction: column;
     color: ${(props) => props.theme.fontColorPrimary};
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
     &:hover {
-        color: ${(props) => props.theme.socialIconColor};
+        color:#ffd479;
     }
 
     div{

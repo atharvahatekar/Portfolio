@@ -15,15 +15,14 @@ import { Container, H1 } from "styles/index";
 
 const serviceData = [
   {
-    Role: "R&D Intern for Digital Solutions",
+    Role: "Data Science Intern",
     location: "Metso, Frankfurt, Germany",
     TimePeriod: "10/ 2024 - Present",
     icon: <TbCircleDot />,
     services: [
-      "Developed and deployed gRPC-based backend for real-time plant data processing, enhancing ACT system efficiency.",
-      "Evaluated multiple forecasting ML models, including ARIMA / SARIMA, achieving superior results with the Prophet model.",
-      "Designed UI for predictive maintenance, enabling seasonal trend analysis, reducing unplanned maintenance events by 20%.",
-      "Implemented rule-based anomaly detection to handle outliers for plant-specific data."
+      "Implemented time series forecasting for predictive maintenance, integrating solutions into a CI/CD pipeline.",
+      "Deployed a gRPC backend to retrieve real-time plant data from ACT software, which helps for outlier detection and advanced analysis.",
+      "Collaborated with the R&D team to develop rule-based anomaly detection, utilizing MLOps frameworks like MLflow for robust model deployment, monitoring, and performance optimization",
     ],
   },
   {
@@ -32,9 +31,9 @@ const serviceData = [
     TimePeriod: "02/ 2022 - 01/ 2023",
     icon: <TbCircleDot />,
     services: [
-        "Designed interactive BI dashboards collaborating with UI/UX team to visualize KPIs, leading to 42% improvement in decision-making processes.",
-        "Utilized Python, SQL, and Power BI to generate insightful reports and data-driven recommendations.",
-        "Leveraged statistical models and supervised learning models on complex datasets for advanced analytics.",
+        "Designed BI dashboards to visualize trends and created measures for KPIs by using DAX, Enabled customers to make crucial decisions that significantly boosted their business performance.",
+        "Utilized Pandas, SQL to perform data cleaning and transformation, extracting actionable insights to support decision-making",
+        "Leveraged machine learning and exploratory data analysis on complex datasets for advanced data analytics.",
       ]
       
   },
@@ -55,7 +54,7 @@ const Experience = () => {
   return (
     <Container className="experience">
       <DataWrapper>
-        <H1>Experience</H1>
+        <H1>Work Experience</H1>
         <MainWrapper>
           {serviceData.map((service, index) => (
             <QuoteContainer key={index}>

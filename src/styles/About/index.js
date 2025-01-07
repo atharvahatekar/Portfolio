@@ -23,7 +23,7 @@ export const Column = styled.div`
 `;
 
 export const Img = styled.img`
-    padding: 30px;
+    padding: 20px;
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -45,7 +45,7 @@ export const AboutInfo = styled.div`
 `;
 
 export const AboutInfoP = styled.div`
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
     color: ${(props) => props.theme.fontColorSecondary};
 `;

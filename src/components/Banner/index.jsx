@@ -15,14 +15,14 @@ const Banner = () => {
     <Container className="home">
       <HeaderContent>
         <div>
-          <H1>Hi 👋 I'm Atharva Hatekar</H1>
+          <H1>Hi  👋  I'm Atharva Hatekar</H1>
           <TypeWriterH1>
             <Typewriter
               options={{
                 strings: [
-                  "A Software Engineer",
+                  "A Data Scientist",
+                  "A Data Analyst",
                   "A Problem Solver",
-                  "Data Scientist",
                 ],
                 pauseFor: 1500,
                 autoStart: true,
@@ -31,9 +31,8 @@ const Banner = () => {
             />
           </TypeWriterH1>
           <P>
-            An enthusiastic Data Scientist with a strong academic foundation and
-            hands-on industry experience in data analytics, machine learning and
-            statistical modeling.Committed to continuous
+            <b>Aspiring Data Scientist</b> with over 2 years of industry experience in data analytics,
+            machine learning and software development. Committed to continuous
             learning and leveraging data science to solve real world problems.
           </P>
           <HeaderButtons>
@@ -48,7 +47,7 @@ const Banner = () => {
             </button>
             &nbsp;&nbsp;&nbsp;
             <button>
-              <A href="paste linkedin link here">Let's Connect</A>
+              <A href="https://www.linkedin.com/in/atharvahatekar/">Let's Connect</A>
             </button>
           </HeaderButtons>
         </div>

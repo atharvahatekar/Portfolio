@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <NavBarDiv>
       <Logo onClick={() => scroll.scrollToTop()}>
-        <p> Atharva Hatekar</p>
+        <p>Atharva Hatekar</p>
         <div></div>
       </Logo>
 

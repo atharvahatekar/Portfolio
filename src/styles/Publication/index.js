@@ -49,7 +49,7 @@ export const ServiceListItem = styled.li`
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-size: 20px;
 `;
 
@@ -58,6 +58,6 @@ color: #b3b9c5;
 `;
 
 export const ServiceText = styled.p`
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #b3b9c5;
 `;

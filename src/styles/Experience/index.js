@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const QuoteContainer = styled.div`
   color: Black;
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -83,7 +83,7 @@ export const ServiceListItem = styled.li`
 `;
 
 export const ServiceText = styled.p`
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   color: #b3b9c5;
 `;
 
