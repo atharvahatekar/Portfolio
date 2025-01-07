@@ -15,15 +15,11 @@ import {
 
 import {
   FaPython,
-  FaCss3,
-  FaLaptopCode,
-  FaServer,
   FaHubspot,
   FaChartPie,
   FaGithub,
   FaChartBar,
 } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
 import {
   SkillsContainer,
   Col,
