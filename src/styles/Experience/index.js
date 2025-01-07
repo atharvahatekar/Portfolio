@@ -72,6 +72,7 @@ export const ServiceListItem = styled.li`
   display: flex;
   gap: 10px;
   margin-bottom: 0.5rem;
+  align-items: center;
   font-size: 20px;
   color: #fff;
   padding-top: 5px;
