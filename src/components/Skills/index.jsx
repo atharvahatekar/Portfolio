@@ -3,27 +3,22 @@ import { BsDatabase } from "react-icons/bs";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { ImStatsDots } from "react-icons/im";
 import { TfiMicrosoft } from "react-icons/tfi";
-import { 
+import {
   SiTableau,
   SiScikitlearn,
   SiTensorflow,
   SiLangchain,
   SiSpacy,
   SiStreamlit,
-
 } from "react-icons/si";
 
 import {
   FaPython,
-  FaCss3,
-  FaLaptopCode,
-  FaServer,
   FaHubspot,
   FaChartPie,
   FaGithub,
   FaChartBar,
 } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
 import {
   SkillsContainer,
   Col,
