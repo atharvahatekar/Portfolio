@@ -9,7 +9,7 @@ export const QuoteContainer = styled.div`
   flex-wrap: wrap;
   align-items: center;
   background-color: #212129;
-  height: 45vh;
+  height: auto;
   border-radius: 5px;
   padding: 25px;
   transition: background-color 0.3s ease-in-out; 
