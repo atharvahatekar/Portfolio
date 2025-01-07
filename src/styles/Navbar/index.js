@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Logo = styled.div`
     font-family: cursive;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 25px;
     opacity: 0.9;
     display: flex;
     flex-direction: column;
