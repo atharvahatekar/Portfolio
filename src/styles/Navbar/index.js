@@ -1,17 +1,19 @@
 import styled from 'styled-components';
 
 const Logo = styled.div`
-    //   font-family: "Philosopher", sans-serif;
-
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
     color: ${(props) => props.theme.fontColorPrimary};
     &:hover {
         color: ${(props) => props.theme.socialIconColor};
     }
-    line-height: 1.5em;
 
-    img{
-        height: 6vh;
-        margin-top: 13px;
+    div{
+        border-bottom: 2.5px solid #ffd479;
     }
 
     @media (max-width: 768px) {
