@@ -47,6 +47,10 @@ const NavBarDiv = styled.div`
         padding-right: 20px;
     }
 
+    @media (max-width: 1920px) {
+        height: 80px;
+    }
+
     @media (max-width: 640px) {
         display: flex;
         flex-direction: column;

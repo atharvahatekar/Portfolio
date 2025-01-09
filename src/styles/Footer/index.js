@@ -4,8 +4,9 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-    background-color: #212129;
+    background-color: #2121295e;
     padding: 20px;
+    margin-top: 50px;
 `
 export const ChildContainer = styled.div`
      display: flex;
@@ -38,7 +39,7 @@ export const AnkerTag = styled.a`
   border: 2px solid gray;
   border-radius: 50%;
   font-size: 18px;
-  color: gray;
+  color: #b3b9c5;
   text-decoration: none;
   margin: 10px 15px 0 0;
   display: inline-flex;
