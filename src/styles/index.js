@@ -4,7 +4,7 @@ export const Container = styled.div`
     width: 100%;
     padding: 40px 0px;
     /* margin-bottom: 100px; */
-    background-color: ${(props) => props.theme.backgroundColor};
+    /* background-color: ${(props) => props.theme.backgroundColor}; */
 `;
 
 export const Common = styled.div`
