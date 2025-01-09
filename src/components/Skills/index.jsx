@@ -3,13 +3,16 @@ import { BsDatabase } from "react-icons/bs";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { ImStatsDots } from "react-icons/im";
 import { TfiMicrosoft } from "react-icons/tfi";
-import {
-  SiTableau,
+import { AiFillOpenAI } from "react-icons/ai";
+import { 
   SiScikitlearn,
   SiTensorflow,
   SiLangchain,
   SiSpacy,
   SiStreamlit,
+  SiPytorch,
+  SiOllama,
+
 } from "react-icons/si";
 
 import {
@@ -45,23 +48,23 @@ const Skills = () => {
     },
     {
       id: 2,
-      project_name: "Tableau",
-      project_desc: <SiTableau className="commonIcons" />,
-    },
-    {
-      id: 3,
       project_name: "PowerBI",
       project_desc: <FaChartPie className="commonIcons" />,
     },
     {
-      id: 4,
+      id: 3,
       project_name: "SciKit Learn",
       project_desc: <SiScikitlearn className="commonIcons" />,
     },
     {
-      id: 5,
+      id: 4,
       project_name: "TensorFlow",
       project_desc: <SiTensorflow className="commonIcons" />,
+    },
+    {
+      id: 5,
+      project_name: "Pytorch",
+      project_desc: <SiPytorch className="commonIcons" />,
     },
     {
       id: 6,
@@ -70,26 +73,37 @@ const Skills = () => {
     },
     {
       id: 7,
+      project_name: "OpenAI",
+      project_desc: <AiFillOpenAI className="commonIcons" />,
+    },
+    {
+      id: 8,
+      project_name: "LLama",
+      project_desc: <SiOllama className="commonIcons" />,
+    },
+        
+    {
+      id: 9,
       project_name: "spaCy",
       project_desc: <SiSpacy className="commonIcons" />,
     },
     {
-      id: 8,
+      id: 10,
       project_name: "VSCode",
       project_desc: <VscVscodeInsiders className="commonIcons" />,
     },
     {
-      id: 9,
+      id: 11,
       project_name: "GIT",
       project_desc: <FaGithub className="commonIcons" />,
     },
     {
-      id: 10,
+      id: 12,
       project_name: "StreamLit",
       project_desc: <SiStreamlit className="commonIcons" />,
     },
     {
-      id: 11,
+      id: 13,
       project_name: "MSOffice",
       project_desc: <TfiMicrosoft className="commonIcons" />,
     },

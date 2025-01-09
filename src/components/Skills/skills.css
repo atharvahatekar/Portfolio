@@ -34,7 +34,12 @@
 .colorTechnologies > div:nth-child(12) > div:nth-child(1):hover {
     color: #00bfff;
 }
-
+.colorTechnologies > div:nth-child(13) > div:nth-child(1):hover {
+    color: #0dff00;
+}
+.colorTechnologies > div:nth-child(14) > div:nth-child(1):hover {
+    color: #fd4ab6;
+}
 
 .colorProficiencies > div:nth-child(1) > div:nth-child(1):hover {
     color: rgb(61, 255, 239);

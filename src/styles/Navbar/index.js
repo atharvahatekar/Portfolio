@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 
 const Logo = styled.div`
-    font-family: cursive;
+    font-family:'Segoe Script',cursive;
     font-weight: bold;
     font-size: 25px;
     opacity: 0.9;
     display: flex;
     flex-direction: column;
     color: ${(props) => props.theme.fontColorPrimary};
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
     cursor: pointer;
     &:hover {
         color:#ffd479;
