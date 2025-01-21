@@ -45,6 +45,9 @@ const NavBarDiv = styled.div`
   @media (max-width: 1920px) {
     height: 80px;
   }
+  @media (max-width: 767px) {
+    height: 70px;
+  }
 `;
 
 export const NavBarDiv2 = styled.div`
