@@ -8,9 +8,9 @@ export const FooterContainer = styled.div`
   padding: 20px;
   margin-top: 50px;
 
-  @media (max-width: 450px) {
+  /* @media (max-width: 450px) {
     padding-bottom: 110px;
-  }
+  } */
 `;
 export const ChildContainer = styled.div`
   display: flex;

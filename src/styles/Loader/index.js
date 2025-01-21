@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Load = styled.div`
-    color: #343a40;
+    color:rgb(85, 94, 103);
     width: 100vw;
     height: 100vh;
     font-family: Consolas, Menlo, Monaco, monospace;
@@ -26,6 +26,6 @@ export const Load = styled.div`
     }
 
     @media (max-width: 767px) {
-        font-size: 45px;
+        font-size: 40px;
   }
 `;
