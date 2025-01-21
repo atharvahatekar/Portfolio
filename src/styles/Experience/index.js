@@ -22,7 +22,7 @@ export const QuoteContainer = styled.div`
 `;
 
 export const RoleText = styled.div`
-  background: linear-gradient(to right,rgb(103, 103, 93) 0%, #ffffff 100%);
+  background: #ffd479;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
