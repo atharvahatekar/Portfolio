@@ -24,4 +24,8 @@ export const Load = styled.div`
             opacity: 0.5;
         }
     }
+
+    @media (max-width: 767px) {
+        font-size: 45px;
+  }
 `;
