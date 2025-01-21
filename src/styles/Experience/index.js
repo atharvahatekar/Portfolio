@@ -44,7 +44,7 @@ export const Circle = styled.div`
 export const QuoteContent = styled.span`
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   font-size: 16px;
   color: #ffd479;
   font-weight: 600;
