@@ -8,26 +8,19 @@ export const HeaderContent = styled.div`
   text-align: center;
   margin: auto;
   color: ${(props) => props.theme.fontColorSecondary};
-  margin-top: 3em;
+  margin-top: 2em;
 
-  @media (max-width: 768px) {
-    padding-top: 150px;
+  @media (max-width: 767px) {
+    margin-top: 2em;
+    width: 85%;
   }
 
-  @media (max-width: 640px) {
-    padding-top: 280px;
+  @media (max-width: 430px) {
+    margin-top: 2em;
   }
 
-  @media (max-width: 600px) {
-    padding-top: 180px;
-  }
-
-  @media (max-width: 460px) {
-    padding-top: 250px;
-  }
-
-  @media (max-width: 445px) {
-    padding-top: 300px;
+  @media (max-width: 390px) {
+    margin-top: 13em;
   }
 `;
 
@@ -37,15 +30,26 @@ export const H1 = styled.h1`
   color: ${(props) => props.theme.fontColorHeader};
   animation-name: fadeInUp;
   animation: 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+
+  @media (max-width: 767px) {
+    font-size: 49px;
+  }
+  @media (max-width: 450px) {
+    font-size: 45px;
+  }
 `;
 
 export const TypeWriterH1 = styled.h1`
-  height: 90px;
+  height: 70px;
   font-size: 35px;
   margin-bottom: 20px;
   color: ${(props) => props.theme.fontColorHeader};
   animation-name: fadeInUp;
   animation: 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+
+  @media (max-width: 767px) {
+    margin-bottom: 0px;
+  }
 `;
 
 export const HeaderButtons = styled.div`
@@ -66,6 +70,22 @@ export const HeaderButtons = styled.div`
       background-color: ${(props) => props.theme.fontColorPrimary};
       border: 1px solid rgb(211, 220, 230);
     }
+
+    @media (max-width: 450px) {
+    width: 163px;
+  }
+  }
+
+  @media (max-width: 450px) {
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+  }
+
+  @media (max-width: 390px) {
+    display: flex;
+     flex-direction: column;
+     align-items: center;
   }
 `;
 

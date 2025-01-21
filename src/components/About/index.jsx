@@ -32,8 +32,8 @@ const socialMediaLinks = [
 ];
 const About = () => {
   return (
-    <Container className="about">
-      <AboutDiv>
+    <Container>
+      <AboutDiv id="about">
         <Column>
           <Img src={ProfilePic} alt="my image" />
         </Column>

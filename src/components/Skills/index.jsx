@@ -127,7 +127,7 @@ const Skills = () => {
   ];
 
   return (
-    <Container className="skills">
+    <Container id="skills">
       <SkillsContainer>
         <Common>
           <H1>Skills & Tools</H1>
@@ -142,7 +142,7 @@ const Skills = () => {
             </BoxDiv>
           ))}
         </Col>
-        <Common>
+        <Common style={{ marginTop: "45px" }}>
           <H1>Proficiencies</H1>
         </Common>
         <Col className="colorProficiencies">

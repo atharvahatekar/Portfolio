@@ -15,12 +15,17 @@ export const EducationWrapper = styled.div`
   width: 100%;
   gap:26px;
   padding: 0px 120px;
+
+  @media (max-width: 767px) {
+    padding: 0px 40px;
+  }
 `;
 export const BoxContainer = styled.div`
   display: flex;
   width: 100%;
   gap: 30px;
   justify-content: center;
+  flex-wrap: wrap;
 `;
 export const IconWrap = styled.div`
 width: 100%;
@@ -47,6 +52,11 @@ export const Box = styled.div`
     border: none;
   }
 
+  @media (max-width: 1024px){
+    width: 100%;
+    padding: 20px;
+  }
+
 `;
 export const BoxWrapper = styled(Box)`
 max-width: unset;
@@ -66,6 +76,10 @@ export const SecondEduWrapper = styled.div`
  &:hover{
   background-color: #212129;
   border: none;
+  }
+
+  @media (max-width: 767px){
+    padding: 20px;
   }
 `;
 export const DateWrapper = styled.div`

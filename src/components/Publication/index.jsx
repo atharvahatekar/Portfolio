@@ -12,7 +12,7 @@ import { A, ViewPublication } from "styles/Banner";
 import { Container, H1 } from "styles/index";
 const Publication = () => {
   return (
-    <Container className="Publication">
+    <Container id="publication">
       <MainWrapper>
         <H1>Publication</H1>
         <QuoteContainer>

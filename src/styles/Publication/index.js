@@ -12,7 +12,7 @@ export const QuoteContainer = styled.div`
   height: auto;
   border-radius: 5px;
   padding: 25px;
-  transition: background-color 0.3s ease-in-out; 
+  transition: background-color 0.3s ease-in-out;
   p {
     display: flex;
     flex-direction: column;
@@ -30,11 +30,21 @@ export const QuoteContent = styled.span`
   font-size: 20px;
   color: #ffd479;
   font-weight: 600;
+  @media (max-width: 767px) {
+    padding-left: unset;
+    text-align: center;
+  }
 `;
 
 export const ServiceList = styled.ul`
   padding: 18px 0 5px 65px;
   width: 90%;
+
+  @media (max-width: 767px) {
+    padding: unset;
+    width: unset;
+    padding-top: 20px;
+  }
 `;
 
 export const MainWrapper = styled.ul`
@@ -54,7 +64,7 @@ export const ServiceListItem = styled.li`
 `;
 
 export const ServiceListIcon = styled(BiCheck)`
-color: #b3b9c5;
+  color: #b3b9c5;
 `;
 
 export const ServiceText = styled.p`

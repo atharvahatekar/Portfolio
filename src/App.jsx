@@ -57,14 +57,17 @@
 
 // export default App;
 
-import React from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Projects from "components/Projects";
 import Skills from "components/Skills";
 import About from "components/About";
 import { ThemeProvider } from "styled-components";
 import Home from "main/index";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Updated import
+import { BrowserRouter as Router, useLocation, Routes, Route } from "react-router-dom"; // Updated import
+import Educations from "components/Education";
+import Experience from "components/Experience";
+import Publication from "components/Publication";
 
 const DarkTheme = {
   backgroundColor: "#15161b", //021f34//#1f2022
@@ -82,22 +85,38 @@ const themes = {
   dark: DarkTheme,
 };
 
+const AppContent = ({ currentTheme }) => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const sectionId = location.pathname.replace("/", "");
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [location]);
+
+  return (
+    <Routes>
+      <Route path="/" element={<Home currentTheme={currentTheme} />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/skills" element={<Skills />} />
+      <Route path="/education" element={<Educations />} />
+      <Route path="/experience" element={<Experience />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/publication" element={<Publication />} />
+    </Routes>
+  );
+};
+
 const App = () => {
-  const [currentTheme] = React.useState("dark"); // Always set to dark theme
+  const [currentTheme] = useState("dark"); // Always set to dark theme
 
   return (
     <ThemeProvider theme={themes[currentTheme]}>
       <div className="app">
         <Router>
-          <Routes>
-            {" "}
-            {/* Updated component */}
-            <Route path="/" element={<Home currentTheme={currentTheme} />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/about" element={<About />} />
-          </Routes>{" "}
-          {/* Updated component */}
+          <AppContent currentTheme={currentTheme} />
         </Router>
       </div>
     </ThemeProvider>

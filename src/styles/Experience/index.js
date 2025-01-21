@@ -9,7 +9,7 @@ export const QuoteContainer = styled.div`
   border-radius: 5px;
   height: 50vh;
   padding: 0 15px;
-  transition: background-color 0.3s ease-in-out; 
+  transition: background-color 0.3s ease-in-out;
   p {
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ export const QuoteContent = styled.span`
   font-weight: 600;
   font-family: Poppins, sans-serif;
 
-  svg{
+  svg {
     font-size: 40px;
     color: #b3b9c5;
   }
@@ -46,7 +46,7 @@ export const ServiceList = styled.ul`
     margin-left: 20px;
   }
 
-  border-left: 3px solid  #b3b9c5;
+  border-left: 3px solid #b3b9c5;
 `;
 
 export const TimePeriod = styled.div`
@@ -59,6 +59,10 @@ export const MainWrapper = styled.div`
   flex-direction: column;
   gap: 20px;
   width: 70%;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
 `;
 export const DataWrapper = styled.div`
   display: flex;
@@ -83,7 +87,7 @@ export const ServiceListItem = styled.li`
 `;
 
 export const ServiceText = styled.p`
-  font-size: 1.0rem;
+  font-size: 1rem;
   color: #b3b9c5;
 `;
 

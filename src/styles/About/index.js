@@ -8,8 +8,9 @@ export const AboutDiv = styled.div`
     flex-wrap: wrap;
     align-items: center;
 
-    @media (max-width: 768px) {
-        margin-top: 250px;
+    @media (max-width: 767px) {
+        margin-top: unset;
+        gap: 20px;
     }
 `;
 

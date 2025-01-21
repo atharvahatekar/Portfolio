@@ -52,7 +52,7 @@ const serviceData = [
 
 const Experience = () => {
   return (
-    <Container className="experience">
+    <Container id="experience">
       <DataWrapper>
         <H1>Work Experience</H1>
         <MainWrapper>

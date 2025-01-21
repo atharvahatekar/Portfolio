@@ -5,6 +5,10 @@ export const Container = styled.div`
     padding: 40px 0px;
     /* margin-bottom: 100px; */
     /* background-color: ${(props) => props.theme.backgroundColor}; */
+
+    @media (max-width: 767px) {
+        padding: 40px 0px 0px 0px;
+    }
 `;
 
 export const Common = styled.div`

@@ -29,6 +29,10 @@ export const Col = styled.div`
 export const BoxDiv = styled.div`
     text-align: center;
     width: 220px;
+
+    @media (max-width: 767px) {
+        width: 188px;
+    }
 `;
 
 export const SkillBox = styled.div`
@@ -41,6 +45,9 @@ export const SkillBox = styled.div`
     &:hover {
         background: ${(props) => props.theme.commonBorder};
         color: ${(props) => props.theme.fontColorHeaderHover};
+    }
+    @media (max-width: 767px) {
+        padding: 16px;
     }
 `;
 
