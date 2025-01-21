@@ -26,6 +26,6 @@ export const Load = styled.div`
     }
 
     @media (max-width: 767px) {
-        font-size: 40px;
+        font-size: 45px;
   }
 `;
