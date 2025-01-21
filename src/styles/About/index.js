@@ -15,6 +15,7 @@ export const AboutDiv = styled.div`
 
     @media (max-width: 395px) {
         width: 92%;
+        padding-top: 55px;
     }
 `;
 

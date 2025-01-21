@@ -11,12 +11,12 @@ export const HeaderContent = styled.div`
   margin-top: 2em;
 
   @media (max-width: 767px) {
-    margin-top: 2em;
+    margin-top: 3em;
     width: 85%;
   }
 
   @media (max-width: 430px) {
-    margin-top: 5em;
+    margin-top: 7em;
   }
 
   @media (max-width: 390px) {
