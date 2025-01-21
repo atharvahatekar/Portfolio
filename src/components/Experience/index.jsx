@@ -13,6 +13,7 @@ import {
   Circle,
 } from "styles/Experience";
 import Metso from "assets/images/metso.png"
+import Dreamwarez from "assets/images/dream-warez.jpg"
 import { Container, H1 } from "styles/index";
 
 const serviceData = [
@@ -31,7 +32,7 @@ const serviceData = [
     Role: "Data Analyst",
     location: "Dreamwarez, Pune, India",
     TimePeriod: "02/ 2022 - 01/ 2023",
-    icon: Metso,
+    icon: Dreamwarez,
     services: [
       "Designed BI dashboards to visualize trends and created measures for KPIs by using DAX, Enabled customers to make crucial decisions that significantly boosted their business performance.",
       "Utilized Pandas, SQL to perform data cleaning and transformation, extracting actionable insights to support decision-making",
@@ -41,7 +42,7 @@ const serviceData = [
   {
     Role: "Software Developer Intern",
     location: "Dreamwarez, Pune, India",
-    icon: Metso,
+    icon: Dreamwarez,
     TimePeriod: "06/ 2021 - 01/ 2022",
     services: [
       "Developed web applications, improving user experience by integrating responsive designs and streamlined functionality.",
