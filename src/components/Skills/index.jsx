@@ -115,14 +115,14 @@ const Skills = () => {
       project_desc: <FaChartBar className="commonIcons" />,
     },
     {
-      id: 2,
-      project_name: "Machine learning",
-      project_desc: <FaHubspot className="commonIcons" />,
-    },
-    {
       id: 1,
       project_name: "Statistics",
       project_desc: <ImStatsDots className="commonIcons" />,
+    },
+    {
+      id: 2,
+      project_name: "Machine learning",
+      project_desc: <FaHubspot className="commonIcons" />,
     },
   ];
 

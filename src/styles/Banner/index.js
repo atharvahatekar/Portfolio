@@ -16,7 +16,7 @@ export const HeaderContent = styled.div`
   }
 
   @media (max-width: 430px) {
-    margin-top: 2em;
+    margin-top: 5em;
   }
 
   @media (max-width: 390px) {

@@ -12,6 +12,10 @@ export const AboutDiv = styled.div`
         margin-top: unset;
         gap: 20px;
     }
+
+    @media (max-width: 395px) {
+        width: 92%;
+    }
 `;
 
 export const Column = styled.div`

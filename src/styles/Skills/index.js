@@ -33,6 +33,10 @@ export const BoxDiv = styled.div`
     @media (max-width: 767px) {
         width: 188px;
     }
+
+    @media (max-width: 394px) {
+        width: 175px;
+    }
 `;
 
 export const SkillBox = styled.div`
