@@ -21,6 +21,26 @@ export const QuoteContainer = styled.div`
   }
 `;
 
+export const RoleText = styled.div`
+  background: linear-gradient(to right,rgb(103, 103, 93) 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+`
+
+export const Circle = styled.div`
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  background: ${({ icon }) => `url(${icon})`};
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+`;
+
 export const QuoteContent = styled.span`
   display: flex;
   align-items: center;
@@ -43,7 +63,7 @@ export const ServiceList = styled.ul`
 
   @media (max-width: 1920px) {
     padding: 6px 0 5px 22px;
-    margin-left: 20px;
+    margin-left: 24px;
   }
 
   border-left: 3px solid #b3b9c5;

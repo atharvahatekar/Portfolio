@@ -9,8 +9,10 @@ import {
   Location,
   DataWrapper,
   TimePeriod,
+  RoleText,
+  Circle,
 } from "styles/Experience";
-import { TbCircleDot } from "react-icons/tb";
+import Metso from "assets/images/metso.png"
 import { Container, H1 } from "styles/index";
 
 const serviceData = [
@@ -18,7 +20,7 @@ const serviceData = [
     Role: "Data Science Intern",
     location: "Metso, Frankfurt, Germany",
     TimePeriod: "10/ 2024 - Present",
-    icon: <TbCircleDot />,
+    icon: Metso,
     services: [
       "Implemented time series forecasting for predictive maintenance, integrating solutions into a CI/CD pipeline.",
       "Deployed a gRPC backend to retrieve real-time plant data from ACT software, which helps for outlier detection and advanced analysis.",
@@ -29,25 +31,24 @@ const serviceData = [
     Role: "Data Analyst",
     location: "Dreamwarez, Pune, India",
     TimePeriod: "02/ 2022 - 01/ 2023",
-    icon: <TbCircleDot />,
+    icon: Metso,
     services: [
-        "Designed BI dashboards to visualize trends and created measures for KPIs by using DAX, Enabled customers to make crucial decisions that significantly boosted their business performance.",
-        "Utilized Pandas, SQL to perform data cleaning and transformation, extracting actionable insights to support decision-making",
-        "Leveraged machine learning and exploratory data analysis on complex datasets for advanced data analytics.",
-      ]
-      
+      "Designed BI dashboards to visualize trends and created measures for KPIs by using DAX, Enabled customers to make crucial decisions that significantly boosted their business performance.",
+      "Utilized Pandas, SQL to perform data cleaning and transformation, extracting actionable insights to support decision-making",
+      "Leveraged machine learning and exploratory data analysis on complex datasets for advanced data analytics.",
+    ],
   },
   {
     Role: "Software Developer Intern",
     location: "Dreamwarez, Pune, India",
-    icon: <TbCircleDot />,
+    icon: Metso,
     TimePeriod: "06/ 2021 - 01/ 2022",
     services: [
-        "Developed web applications, improving user experience by integrating responsive designs and streamlined functionality.",
-        "Collaborated within an agile development team to implement new features, debug issues, and optimize existing code, ensuring timely project delivery.",
-        "Conducted thorough validations on web forms, enhancing data accuracy and improving overall system reliability by identifying and resolving input discrepancies.",
-      ]
-    }      
+      "Developed web applications, improving user experience by integrating responsive designs and streamlined functionality.",
+      "Collaborated within an agile development team to implement new features, debug issues, and optimize existing code, ensuring timely project delivery.",
+      "Conducted thorough validations on web forms, enhancing data accuracy and improving overall system reliability by identifying and resolving input discrepancies.",
+    ],
+  },
 ];
 
 const Experience = () => {
@@ -60,12 +61,14 @@ const Experience = () => {
             <QuoteContainer key={index}>
               <p className="quote">
                 <QuoteContent>
-                  {service.icon}
-                  {service.Role}
-                  </QuoteContent>
+                  <Circle icon={service.icon}></Circle>
+
+                  <RoleText>{service.location}</RoleText>
+                </QuoteContent>
                 <ServiceList>
-                <TimePeriod>{service.TimePeriod}</TimePeriod>
-                  <Location>{service.location}</Location>
+                  <Location>{service.Role}</Location>
+                  <TimePeriod>{service.TimePeriod}</TimePeriod>
+
                   {service.services.map((text, idx) => (
                     <ServiceListItem key={idx}>
                       •<ServiceText>{text}</ServiceText>
