@@ -158,13 +158,13 @@ const Banner = () => {
             {/* <AnkerTag href="#">
               <FaFacebookF />
             </AnkerTag> */}
-            <AnkerTag href="https://www.instagram.com/kaaju_.12/?next=%2F&hl=en">
+            <AnkerTag href="https://github.com/atharvahatekar">
               <RiInstagramFill />
             </AnkerTag>
-            <AnkerTag href="https://www.linkedin.com/in/kajal-raj">
+            <AnkerTag href="https://www.instagram.com/atharvahatekar.ai/profilecard/?igsh=MzQ2OGxpeGFuc3p3">
               <AiFillLinkedin />
             </AnkerTag>
-            <AnkerTag href="https://github.com/kaaju-11">
+            <AnkerTag href="https://github.com/atharvahatekar">
               <AiOutlineGithub />
             </AnkerTag>
             {/* <AnkerTag href="#">
