@@ -28,7 +28,7 @@ export const QuoteContent = styled.span`
   padding-left: 40px;
   display: inline-block;
   font-size: 20px;
-  color: #ffd479;
+  color: #fec347;
   font-weight: 600;
   @media (max-width: 767px) {
     padding-left: unset;

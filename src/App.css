@@ -31,6 +31,11 @@ body {
 .commonIcons {
   font-size: 70px;
   margin-bottom: 15px;
+
+  @media (max-width: 768px) {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
 }
 
 .iconsTechStack {
@@ -61,7 +66,6 @@ body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px dotte slategrey;
 }
-
 
 html,
 body {
@@ -257,7 +261,6 @@ body {
   animation: sf-fly-by-3 5s linear infinite;
 }
 
-
 .css-862dam-MuiPaper-root-MuiDrawer-paper {
   @media (max-width: 767px) {
     top: 65px !important;
@@ -274,7 +277,7 @@ body {
     background-color: #15161b !important;
   }
 }
-.css-1k86i4{
+.css-1k86i4 {
   @media (max-width: 767px) {
     top: 65px !important;
     border-radius: unset !important;
@@ -291,3 +294,39 @@ body {
   }
 }
 
+
+.about__me {
+  width: 66%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    #fec347,
+    transparent
+  );
+  display: grid;
+  place-items: center;
+
+  @media (max-width: 1920px) {
+    width: 48%;
+  }
+
+  @media (max-width: 768px) {
+    width: 88%;
+}
+}
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: all 400ms ease;
+
+  img{
+    width: 303px;
+    height: 302px;
+  }
+}
+.about__me-image:hover {
+  transform: rotate(0);
+}

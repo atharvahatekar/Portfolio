@@ -4,7 +4,6 @@ import ProfilePic from "assets/images/profile-pic.jpeg";
 import {
   AboutDiv,
   Column,
-  Img,
   AboutInfo,
   AboutInfoP,
   HeaderUl,
@@ -12,7 +11,7 @@ import {
   JelloHori,
 } from "styles/About";
 
-import { Container, H1 } from "styles/index";
+import { Container, H1Skills } from "styles/index";
 const socialMediaLinks = [
   {
     id: 0,
@@ -35,10 +34,15 @@ const About = () => {
     <Container>
       <AboutDiv id="about">
         <Column>
-          <Img src={ProfilePic} alt="my image" />
+          {/* <Img src={ProfilePic} alt="my image" /> */}
+          <div className="about__me">
+            <div className="about__me-image">
+              <img src={ProfilePic} alt="me" />
+            </div>
+          </div>
         </Column>
         <Column>
-          <H1>About Me</H1>
+          <H1Skills>About Me</H1Skills>
           <AboutInfo>
             <AboutInfoP>
             I am Atharva Hatekar, currently pursuing a Master’s in Artificial Intelligence at Brandenburgische Technische Universität, 

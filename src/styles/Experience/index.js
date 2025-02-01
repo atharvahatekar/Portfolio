@@ -22,7 +22,7 @@ export const QuoteContainer = styled.div`
 `;
 
 export const RoleText = styled.div`
-  background: #ffd479;
+  background: #fec347;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -46,7 +46,7 @@ export const QuoteContent = styled.span`
   align-items: center;
   gap: 10px;
   font-size: 16px;
-  color: #ffd479;
+  color: #fec347;
   font-weight: 600;
   font-family: Poppins, sans-serif;
 

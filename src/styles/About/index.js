@@ -9,7 +9,7 @@ export const AboutDiv = styled.div`
   align-items: center;
 
   @media (max-width: 767px) {
-    margin-top: unset;
+    margin-top: 50px;
     gap: 20px;
   }
 

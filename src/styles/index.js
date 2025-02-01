@@ -25,3 +25,13 @@ export const H1 = styled.div`
   margin-bottom: 20px;
   color: ${(props) => props.theme.fontColorHeader};
 `;
+
+export const H1Skills = styled.div`
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: ${(props) => props.theme.fontColorHeader};
+
+  @media (max-width: 767px) {
+    padding-top: 25px;
+  }
+`;

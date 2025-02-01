@@ -10,11 +10,11 @@ const Logo = styled.div`
   color: ${(props) => props.theme.fontColorPrimary};
   cursor: pointer;
   &:hover {
-    color: #ffd479;
+    color: #fec347 ;
   }
 
   div {
-    border-bottom: 2.5px solid #ffd479;
+    border-bottom: 2.5px solid #fec347;
   }
 
 `;
@@ -22,6 +22,7 @@ const Logo = styled.div`
 const NavBarDiv = styled.div`
   background: ${(props) => props.theme.backgroundColor};
   position: fixed;
+  z-index: 2;
   width: 100%;
   top: 0px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);

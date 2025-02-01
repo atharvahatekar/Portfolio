@@ -23,33 +23,17 @@ export const Col = styled.div`
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
 `;
 
 export const BoxDiv = styled.div`
     text-align: center;
-    width: 220px;
-
-    @media (max-width: 767px) {
-        width: 188px;
-    }
-
-    @media (max-width: 394px) {
-        width: 175px;
-    }
 `;
 
 export const SkillBox = styled.div`
     padding: 40px;
-    background: ${(props) => props.theme.cardColor};
-    color: ${(props) => props.theme.fontColorSecondary};
-    box-shadow: 0px 12px 24px rgb(2 30 84 / 10%);
-    margin: 20px;
     transition: all 0.5s linear;
-    &:hover {
-        background: ${(props) => props.theme.commonBorder};
-        color: ${(props) => props.theme.fontColorHeaderHover};
-    }
     @media (max-width: 767px) {
         padding: 16px;
     }

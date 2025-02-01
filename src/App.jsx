@@ -71,7 +71,7 @@ import Publication from "components/Publication";
 
 const DarkTheme = {
   backgroundColor: "#15161b", //021f34//#1f2022
-  fontColorHeader: "#ffd479", ///fff
+  fontColorHeader: "#fec347", ///fff
   fontColorHeaderHover: "#25265e", //25265e
   fontColorPrimary: "#b3b9c5", //fff
   fontColorSecondary: "#b3b9c5", //98c0c6

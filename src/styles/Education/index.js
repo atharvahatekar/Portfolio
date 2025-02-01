@@ -105,7 +105,7 @@ export const AboutDegree = styled.div`
 `;
 
 export const CollegeHeading = styled.div`
-  color: #ffd479;
+  color: #fec347;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
