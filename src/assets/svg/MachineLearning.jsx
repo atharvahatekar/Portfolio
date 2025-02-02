@@ -7,7 +7,7 @@ const SVGComponent = (props) => (
     {...props}
     width={71}
     height={71}
-    style={{marginBottom:'20px'}}
+    style={{marginBottom:'30px'}}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0} />
     <g

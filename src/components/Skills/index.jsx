@@ -7,6 +7,7 @@ import PowerBI from "assets/svg/PowerBi";
 import DataAnylitics from "assets/svg/dataAnalytic";
 import Statistic from "assets/svg/Statistic";
 import MachineLearning from "assets/svg/MachineLearning";
+import GenerativeAi from "assets/images/chip.png";
 import {
   SiScikitlearn,
   SiTensorflow,
@@ -148,6 +149,12 @@ const Skills = () => {
     },
     {
       id: 2,
+      project_name: "Generative Ai",
+      project_desc: <img src={GenerativeAi} style={{width:'76px', height:'76px', marginBottom:'26px'}} alt="Generative Ai" className="commonIcons" />,
+      color: "#ad78ee",
+    },
+    {
+      id: 3,
       project_name: "Machine learning",
       project_desc: <MachineLearning className="commonIcons" />,
       color: "#66b5ff",
