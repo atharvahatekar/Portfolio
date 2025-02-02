@@ -66,10 +66,10 @@ const Banner = () => {
             {/* <AnkerTag href="#">
               <FaFacebookF />
             </AnkerTag> */}
-            <AnkerTag href="https://github.com/atharvahatekar">
+            <AnkerTag href="https://www.instagram.com/atharvahatekar.ai/profilecard/?igsh=MzQ2OGxpeGFuc3p3https://github.com/atharvahatekar">
               <RiInstagramFill />
             </AnkerTag>
-            <AnkerTag href="https://www.instagram.com/atharvahatekar.ai/profilecard/?igsh=MzQ2OGxpeGFuc3p3">
+            <AnkerTag href="https://www.linkedin.com/in/atharvahatekar/">
               <AiFillLinkedin />
             </AnkerTag>
             <AnkerTag href="https://github.com/atharvahatekar">
