@@ -270,6 +270,7 @@ export const FButton = styled.a`
   font-weight: 600;
   text-align: center;
   border: 2px solid #fec347;
+  padding: 10px 0;
 
   &:hover {
     box-shadow: 0 0 10px #fec347;
