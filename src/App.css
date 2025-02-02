@@ -30,7 +30,7 @@ body {
 
 .commonIcons {
   font-size: 70px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 
   @media (max-width: 768px) {
     font-size: 50px;
